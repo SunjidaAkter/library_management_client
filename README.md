@@ -34,3 +34,58 @@
 - **Stripe**: v8.174.0
 - **slick-carousel**: v1.8.1
 - **swiper**: v8.1.5
+
+
+### Additional Notes:
+
+- **Vite** is used as the development and build tool for this project.
+- **React Router** is implemented for managing application routes.
+- **Tailwind CSS** is used for styling components.
+
+
+### Installation Steps:
+
+1. Copy the `repository_url` to **Clone the repository**
+
+   ```bash
+   git clone https://github.com/SunjidaAkter/library_management_client.git
+   ```
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd library_management_client
+   ```
+
+3. **Install the dependencies:**
+
+   Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+   ```bash
+   npm install
+   code .
+   ```
+
+<br>
+
+4. **Run the development server:**
+
+After the dependencies are installed, start the development server with:
+
+```bash
+npm run dev
+```
+
+**Finally, Access the application**
+
+The application will be available at: `http://localhost:3000`.
+
+---
+
+<br>
+
+## Conclusion
+
+Thank you for exploring BookIt Library. This project is designed to simplify the management of library resources and enhance the user experience for both library staff and patrons. I hope this application serves as a valuable tool for libraries in efficiently handling their collections and improving member engagement.
+
+Feel free to contribute to this project by reporting issues, suggesting enhancements, or submitting pull requests. Your feedback is crucial in making BookIt Library even better. For any queries or support, please don't hesitate to reach out!
