@@ -1,14 +1,49 @@
 # Live Link: [BookIt Library](https://bookit-library.netlify.app/)
 
-## About This Project
-* **BookIt Library** is a comprehensive platform for managing library resources.
-* Includes authentication features like login, registration, logout, and email verification.
-* Private dashboard route where users can view available books and manage their borrowings.
-* The homepage includes sections for Header, Book Categories, About, Featured Books, New Arrivals, Library Gallery, Reviews, Library Events, Newsletter, Client Testimonials, and Footer.
-* Utilizes **Redux Toolkit** for efficient state management.
-* Developed using **React.js**, with routing through **React Router** and state management by **Redux Toolkit**.
-* Styled with **Tailwind CSS** for a clean and responsive design.
-* **Supabase** is used for storing and managing library data.
+## Overview
+
+This is the frontend for the **BookIt Library** project, built using **React** and **Vite**. It provides the user interface for managing library resources, allowing users to browse available books, manage their borrowings, and access various library services.
+
+The frontend is designed to interact seamlessly with the backend API, ensuring a smooth user experience for library management and book tracking.
+
+---
+
+<br>
+
+## Project Features
+
+### User Authentication
+
+- User roles: Readers and Admins.
+- Users can register for an account and log in.
+- Users can log out and manage their profiles.
+
+### Book Catalog
+
+- Readers can browse a wide range of books organized by categories, such as sci-fiction, novel, and reference materials.
+- Each book entry includes details such as title, author, genre, and a brief description.
+
+### Book Borrowing
+
+- Users can borrow books directly from the catalog, with options to view due dates and return policies.
+- The system tracks borrowed books and sends notifications for borrowing records.
+
+### User Dashboard
+
+- Readers have a dashboard to view their borrowed books, track return dates, and manage their account information.
+- Admins have access to a separate dashboard to manage book inventory, view borrowing statistics, and handle user inquiries.
+
+### Featured Books and Events
+
+- The homepage showcases featured books, new arrivals, and upcoming library events to engage users and promote community involvement.
+
+### Email Notifications
+
+- Send email notifications to users upon successful book borrowing and reminders for due dates.
+
+---
+
+<br>
 
 ## Admin Info
 * **Username**: Sunjida_Akter
@@ -18,6 +53,10 @@
 ## Reader Info
 * **Username**: Sunjida_Akter1
 * **Admin Password**: 1212@asas
+
+---
+
+<br>
 
 ## Technologies
 - **react-awesome-reveal**: v4.2.14
@@ -42,6 +81,9 @@
 - **React Router** is implemented for managing application routes.
 - **Tailwind CSS** is used for styling components.
 
+---
+
+<br>
 
 ### Installation Steps:
 
@@ -80,7 +122,9 @@ npm run dev
 
 The application will be available at: `http://localhost:3000`.
 
+---
 
+<br>
 
 ## Conclusion
 
